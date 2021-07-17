@@ -1,0 +1,30 @@
+{
+  "name": "amazona",
+  "proxy": "http://127.0.0.1:5000",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules Backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadilMeddeb/Amazona.git"
+  },
+  "author": "hadil meddeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadilMeddeb/Amazona/issues"
+  },
+  "homepage": "https://github.com/HadilMeddeb/Amazona#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}

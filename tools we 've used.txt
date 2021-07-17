@@ -1,0 +1,8 @@
+---1/we have used nodemon (it is a development tool) because whenerver we make changement in our server code we have to restart the server but with nodemon it will be done automatically.
+you have to add a script in package.jason file to use nodemon
+"start":"nodemon ....";
+
+---2/we have installed express.js which is a framework of node js for the backend side app
+---3/we have to add proxy to th jason file to indicate the adress that will transfer the requestes that it recieves to the backend side
+---/ axios is a library used to send requests to server we have to install it in our frontend app
+axios is a request http library which alows us to interface with the resT Api
